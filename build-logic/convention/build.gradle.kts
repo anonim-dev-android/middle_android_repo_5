@@ -23,7 +23,7 @@ gradlePlugin {
     plugins {
         register("libraryConvention") {
             id = libs.plugins.library.convention.get().pluginId
-            implementationClass = "LibraryConventionPlugin"
+            implementationClass = "FeatureConventionPlugin"
         }
     }
 }

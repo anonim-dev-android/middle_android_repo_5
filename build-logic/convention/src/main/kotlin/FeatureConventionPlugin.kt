@@ -6,7 +6,7 @@ import org.gradle.kotlin.dsl.configure
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension
 
-class LibraryConventionPlugin: Plugin<Project> {
+class FeatureConventionPlugin: Plugin<Project> {
 
     override fun apply(target: Project) {
 
